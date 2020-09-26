@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-train=pd.read_csv("/Users/User/Desktop/ML0000/python/1/train.csv")
+train=pd.read_csv("/Users/---------/train.csv")
 
-test=pd.read_csv("/Users/User/Desktop/ML0000/python/1/test.csv")
+test=pd.read_csv("/Users/---------/test.csv")
 
 train=train.drop(["id"],1)
 test=test.drop(["id"],1)
